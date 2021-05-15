@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".model.DetailContactsActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:padding="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_10sdp">
+
+        <TextView
+            android:id="@+id/tvtNameDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="Ten"
+            android:textSize="@dimen/_35sdp" />
+
+        <TextView
+            android:id="@+id/tvtPhoneNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvtName"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="SDT"
+            android:textSize="@dimen/_20sdp" />
+
+        <TextView
+            android:id="@+id/tvtTotalTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvtPhoneNumber"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="total time"
+            android:textSize="@dimen/_15sdp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
